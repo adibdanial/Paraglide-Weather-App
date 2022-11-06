@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="form.css">
+
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <div class="inner-width">
+        <h2 class="logo">Paraglide</h2>
+        <div class="navbar-menu">
+          <a href="paraglide.html">Home</a>
+          <a href="form.html">Notes</a>
+          <a href="#" onclick="self.close()">Exit</a>
+        </div>
+      </div>
+    </nav>
+    <!-- image -->
+    <section class="image">
+      <img src="form.jpg"> 
+    </section>
+
+    <!-- form -->
+    <div class="mainWrapper">
+      <form class="form">
+        <h2 align="center">NOTES</h2>
+        <div class="form-group">
+          <input id="fileName" type="text" class="form-control1" placeholder="Name of notes">
+        </div>
+        <br>
+        <div class="form-group">
+          <textarea id="fileContents" class="form-control2" rows="5" placeholder="Description"></textarea>
+        </div>
+        <!-- button -->
+        <section align="center">
+          <h3 id="btnCreate" class="btn">Create</h3>
+          <h3 id="btnRead" class="btn">Read</h3>
+          <h3 id="btnDelete" class="btn">Delete</h3>
+          <h3 id="btnUpdate" class="btn">Update</h3>
+        </section>
+      </form>
+    </div>
+
+    <!-- info for user -->
+    <div class="info" align="center">
+      <h4>Name of notes: Name of your notes that to be saved</h4>
+      <h4>Description: Describe your things regarding weather info</h4>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="form.js"></script>
+      
+      
+    
+  </body>
+</html>

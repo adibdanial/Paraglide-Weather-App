@@ -1,0 +1,13 @@
+Weather in Malaysia
+22.36°C
+
+overcast clouds
+
+Humidity
+99%
+Wind Speed
+0.81 mph
+Wind Degree
+93°
+Wind Gust
+0.81 mph

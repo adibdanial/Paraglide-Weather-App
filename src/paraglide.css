@@ -1,0 +1,241 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 140%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    
+  }
+  .navbar{
+    position: absolute;
+    background-color: orange;
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+    z-index: 10;
+    line-height: 20px;
+  }
+  .inner-width{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo{
+    font-size: 40px;
+    font-weight: 100;
+    font-family:'Raleway',sans-serif;
+    color: #222222;
+    cursor: pointer;
+  }
+  .navbar-menu a{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Raleway',sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 35px;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .navbar-menu a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.8px;
+    background-color: #de6900;
+    transition: width .3s;
+  }
+  .navbar-menu a:hover::after{
+    width: 100%;
+  }
+
+  .image{
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    z-index: -10;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .image img{
+    width: 100%;
+    height: 50%;
+ 
+  }
+
+  .title{ 
+    color: whitesmoke;
+    position: absolute;
+    display: inline;
+    margin-bottom: 50px;
+    z-index: 2;
+  }
+
+
+  .infoweather{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    max-width: 1470px;
+    display: inline-table;
+    margin-top: 1500px;
+
+  }
+  
+  .card1{
+    background-color: orange;
+    position: relative;
+    padding: 30px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .weatherloading{
+    position: relative;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Raleway',sans-serif;
+  }
+
+  .head{
+    position: relative;
+    right: 200px;
+  }
+
+  .temp{
+    font-size: 50px;
+  }
+
+
+  .search {
+    position: absolute;
+    margin-left: 1000px;
+  }
+
+  button {
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 20%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+  
+  button:hover {
+    background: white;
+  }
+
+
+  .flex {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  
+  table{
+    position: relative;
+    right: 200px;
+    top: 150px;
+    height: 200px;
+
+  }
+
+  .box{
+    position: relative;
+    margin-top: 150px;
+    margin-right: 500px;
+    right: 200px;
+  }
+
+  .box1{
+    background-color: white;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-top: 40px;
+  }
+
+  .box2{
+    background-color: white;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 40px;
+  }
+
+  .box3{
+    background-color: white;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 40px;
+  }
+
+  .box4{
+    background-color: white;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 40px;
+  }
+
+  .containerdesc{
+    position: absolute;
+    background-color: rgb(74, 66, 66);
+    height: 200px;
+    width: 100%;
+    top: 1500px;
+  }
+  
+  .paradesc{
+    color: white;
+    font-size: 15px
+  }
+  
+  
